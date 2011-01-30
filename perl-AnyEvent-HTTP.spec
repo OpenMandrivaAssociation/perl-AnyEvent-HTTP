@@ -1,5 +1,5 @@
 %define upstream_name    AnyEvent-HTTP
-%define upstream_version 2.0
+%define upstream_version 2.03
 %define _requires_exceptions perl(Exporter::)
 
 Name:       perl-%{upstream_name}
