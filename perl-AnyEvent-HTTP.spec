@@ -1,10 +1,10 @@
 %define upstream_name    AnyEvent-HTTP
-%define upstream_version 2.04
+%define upstream_version 2.1
 %define _requires_exceptions perl(Exporter::)
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Simple but non-blocking HTTP/HTTPS client
 License:    GPL+ or Artistic
