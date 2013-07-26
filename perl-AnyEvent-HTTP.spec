@@ -1,5 +1,5 @@
 %define upstream_name    AnyEvent-HTTP
-%define upstream_version 2.12
+%define upstream_version 2.15
 
 %if %{_use_internal_dependency_generator}
 %define __noautoreq 'perl\\(Exporter(.*)\\)'
@@ -8,14 +8,14 @@
 %endif
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 2.15
+Release:	1
 
 Summary:	Simple but non-blocking HTTP/HTTPS client
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/AnyEvent/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/AnyEvent/AnyEvent-HTTP-2.15.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(AnyEvent)
@@ -94,4 +94,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Dec 25 2010 Shlomi Fish <shlomif@mandriva.org> 1.460.0-1mdv2011.0
 + Revision: 624763
 - import perl-AnyEvent-HTTP
+
 

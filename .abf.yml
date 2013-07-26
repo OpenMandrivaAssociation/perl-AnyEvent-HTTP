@@ -1,2 +1,4 @@
+removed_sources:
+  AnyEvent-HTTP-2.12.tar.gz: 5fb0b0cc3dd5f60eb9c08eab8b2d36c947fb193c
 sources:
-  "AnyEvent-HTTP-2.12.tar.gz": 5fb0b0cc3dd5f60eb9c08eab8b2d36c947fb193c
+  AnyEvent-HTTP-2.15.tar.gz: 3517ee3d592c364a123899abd1472c2a4e8a69ca
